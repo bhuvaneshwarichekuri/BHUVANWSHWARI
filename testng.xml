@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MiniProjectMoviesApp ">
+    <test name="loginAndHomepageTest" >
+        <classes>
+            <class name="testHeaderSectionFunctionalities" />
+            <class name="loginPageTest" />
+            <class name="homePageTest" />
+            <class name="popularPageTest" />
+            <class name="searchPageTest" />
+            <class name="moviesDetailsPage" />
+            <class name="headerSectionTest" />
+            <class name="accountsPage" />
+        </classes>
+    </test>
+</suite>
